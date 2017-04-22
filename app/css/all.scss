@@ -1,0 +1,19 @@
+@import 'material-icons.css';
+@import 'node_modules/sass-material-design-colors/palette.scss';
+@import 'reset.scss';
+@import 'colors.scss';
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+#window-frame {
+    background-color: $blue-grey-900;
+    padding: 0.05cm 0;
+    display: inline-block;
+    width: 100%;
+}
